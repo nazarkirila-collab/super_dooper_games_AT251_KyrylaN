@@ -1,0 +1,9 @@
+:root {
+    --bg: #050505;
+    --neon-green: #00ff9d;
+    --neon-red: #ff3c00;
+    --neon-blue: #00d2ff;
+    --glass: rgba(0, 0, 0, 0.85);
+    --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
