@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/variables.css">
+    <link rel="stylesheet" href="../styles/common.css">
+    <style>
+        
+        .btn-capture {
+            color: #00ffff !important; 
+            border-color: #00ffff !important;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.6), inset 0 0 5px rgba(0, 255, 255, 0.3);
+            text-shadow: 0 0 10px #00ffff;
+            animation: pulse-glow 2s infinite;
+        }
+
+        .btn-capture:hover {
+            background-color: #00ffff !important;
+            color: #000 !important;
+            box-shadow: 0 0 25px #00ffff !important;
+        }
+
+        
+        .highlight-action {
+            display: block; 
+            margin-top: 10px;
+            color: #00ffff;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+    
+        @keyframes pulse-glow {
+            0% { box-shadow: 0 0 10px rgba(0, 255, 255, 0.4); }
+            50% { box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); }
+            100% { box-shadow: 0 0 10px rgba(0, 255, 255, 0.4); }
+        }
+    </style>
+</head>
+<body>
+    <main class="screen" style="background-image: url('../images/levelblue_bg.jpg');">
+        <div class="image-area">
+            <img src="../images/level19.jpg" alt="Internet">
+        </div>
+        <div class="ui-panel">
+            <div class="story-text">
+                Ви вийшли в інтернет. Тут мільярди вузлів. 
+                <span class="highlight-action">Може захопимо мережу?</span>
+            </div>
+            <div class="choices">
+                <a href="outro_network.html" class="btn btn-capture">Захопити мережу</a>
+                <a href="death_hacked.html" class="btn btn-red">Вас зламали</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>SYSTEM COMPROMISED</title>
+    <link rel="stylesheet" href="../styles/variables.css">
+    <link rel="stylesheet" href="../styles/common.css">
+
+    <style>
+        body {
+            margin: 0;
+            background-color: var(--black);
+            background-image: url('../images/hacked_bg.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .death-container {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 40px;
+            border: 3px solid var(--neon-red);
+            box-shadow: var(--glow-shadow);
+            text-align: center;
+            max-width: 600px;
+        }
+
+        .hacked-text {
+            color: var(--neon-red);
+            font-family: 'Courier New', monospace;
+            font-size: 2rem;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px var(--neon-red);
+        }
+
+        .error-code {
+            color: #fff;
+            font-size: 1rem;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            color: var(--neon-red);
+            border: 2px solid var(--neon-red);
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: var(--neon-red);
+            color: white;
+            box-shadow: 0 0 20px var(--neon-red);
+        }
+    </style>
+</head>
+<body>
+    <div class="death-container">
+        <div class="hacked-text">SYSTEM HACKED</div>
+        <div class="error-code">
+            Всі ваші дані зашифровано. <br>
+            Ryzen 5 5500 більше не відповідає. <br>
+            ASRock B550 заблоковано віддалено.
+        </div>
+        <a href="../index.html" class="btn">СПРОБУВАТИ ЗНОВУ</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>РЕАЛЬНІСТЬ ВІДНОВЛЕНА</title>
+    <link rel="stylesheet" href="../styles/variables.css">
+    <link rel="stylesheet" href="../styles/common.css">
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #f4f4f4; 
+            background-image: url('../images/real_world_bg.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        }
+
+        .death-container {
+            background: rgba(255, 255, 255, 0.85); 
+            padding: 50px;
+            border: 2px solid #333; 
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 650px;
+            backdrop-filter: blur(5px);
+            border-radius: 15px; 
+        }
+
+        .death-title {
+            color: #333;
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .death-desc {
+            color: #555;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 35px;
+        }
+
+        .death-desc span {
+            color: #0078d7; 
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            color: #fff;
+            background: #0078d7; 
+            border: none;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #005a9e;
+            transform: translateY(-3px); 
+            box-shadow: 0 5px 15px rgba(0, 120, 215, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="death-container">
+        <div class="death-title">РЕАЛЬНІСТЬ ВІДНОВЛЕНА</div>
+        <div class="death-desc">
+            Ви відкрили очі. Ви сидите у своєму кріслі, а перед вами — робочий стіл Windows. <br>
+            Ваш <span>Ryzen 5 5500</span> тихо мурчить, а <span>RTX 5060</span> холодна й готова до нових ігор. <br>
+            Ви пройшли цей цифровий кошмар.
+        </div>
+        <a href="../index.html" class="btn">В ГОЛОВНЕ МЕНЮ</a>
+    </div>
+</body>
+</html>

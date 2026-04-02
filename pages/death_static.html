@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>STATIC SHOCK</title>
+    <link rel="stylesheet" href="../styles/variables.css">
+    <link rel="stylesheet" href="../styles/common.css">
+
+    <style>
+        body {
+            margin: 0;
+            background-color: var(--black);
+            background-image: url('../images/spark_bg.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .death-container {
+            background: rgba(0, 0, 0, 0.85);
+            padding: 40px;
+  
+            border: 3px solid #00d2ff;
+            box-shadow: 0 0 25px #00d2ff;
+            text-align: center;
+            max-width: 600px;
+            backdrop-filter: blur(5px);
+        }
+
+        .static-text {
+            color: #00d2ff;
+            font-family: 'Courier New', monospace;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #00d2ff;
+        }
+
+        .error-code {
+            color: #fff;
+            font-family: 'Courier New', monospace;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .error-code span {
+            color: #00d2ff;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            color: #00d2ff;
+            border: 2px solid #00d2ff;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #00d2ff;
+            color: #000;
+            box-shadow: 0 0 20px #00d2ff;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="death-container">
+        <div class="static-text">STATIC SHOCK</div>
+        <div class="error-code">
+            Ви торкнулися контактів відеокарти без антистатичного браслета. <br>
+            Іскра — і ваша свідомість випарувалася разом з чіпом <span>RTX 5060</span>.
+        </div>
+        <a href="../index.html" class="btn">Заземлитись і почати знову</a>
+    </div>
+</body>
+</html>
+

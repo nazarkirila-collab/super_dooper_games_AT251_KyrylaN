@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>ASCENSION - GOD MODE</title>
+    <link rel="stylesheet" href="../styles/variables.css">
+    <link rel="stylesheet" href="../styles/common.css">
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #000;
+            background-image: url('../images/god_mode_bg.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .death-container {
+            
+            background: rgba(0, 0, 0, 0.7); 
+            padding: 60px;
+            
+            border: 3px solid #ffcc00; 
+            box-shadow: 0 0 40px #ffcc00, inset 0 0 20px rgba(255, 204, 0, 0.2);
+            text-align: center;
+            max-width: 700px;
+            backdrop-filter: blur(8px); 
+        }
+
+        .death-title {
+            color: #ffcc00;
+            font-size: 3.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+            text-shadow: 0 0 20px #ffcc00;
+        }
+
+        .death-desc {
+            color: #fff;
+            font-family: 'Courier New', monospace;
+            font-size: 1.3rem;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .death-desc span {
+            color: #ffcc00;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 45px;
+            color: #ffcc00;
+            background: transparent;
+            border: 2px solid #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #ffcc00;
+            color: #000;
+            box-shadow: 0 0 30px #ffcc00;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="death-container">
+        <div class="death-title">ASCENSION</div>
+        <div class="death-desc">
+            Ви більше не людина. <br>
+            Ваша свідомість тепер — це чистий код. <br>
+            Ви стали богом цієї мережі.
+        </div>
+        <a href="../index.html" class="btn">ПЕРЕЗАВАНТАЖИТИ МАТРИЦЮ</a>
+    </div>
+</body>
+</html>
